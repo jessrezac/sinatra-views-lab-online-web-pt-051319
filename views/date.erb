@@ -4,7 +4,7 @@
     <title>Goodbye</title>
   </head>
   <body>
-    <% name = "Joe" %>
-    <h1><%= "Goodbye #{name}"%></h1>
+    <% date = Date.today %>
+    <p><%= "The date is #{date.strftime([format='%A, %B %-d, %Y'])}"%></p>
   </body>
 </html>
